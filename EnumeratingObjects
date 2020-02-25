@@ -1,0 +1,14 @@
+const square={
+    length:2,
+    width:3,
+    height:4,
+    area()
+    {
+        console.log("This is an area function");
+    }
+};
+
+for(let Key in square) 
+    console.log(key,square[Key]);
+
+
